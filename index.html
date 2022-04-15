@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <meta charset="UTF-8">
-    <title>Page Title</title>
+    <title>Home</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <body>
-        <nav>
+        <nav id="main-nav-bar">
             <div>
-                <a href="menu.html">Menu</a>
+                <a id="selected-nav-bar" href="menu.html">Menu</a>
             </div>
             <div>
                 <a href="about.html">About</a>
@@ -16,13 +17,20 @@
                 <a href="contact.html">Contact Us</a>
             </div>
             <div>
-                <a href="order.html">Oder</a>
+                <a href="order.html">Order</a>
             </div>
-            <div>
-                <a href="instagram.com"><img src="instagram.png" alt="The Instagram Logo"></a>
-                <a href="facebook.com"><img src="facebook.png" alt="The Facebook Logo"></a>
-                <a href=""><img src="email.png" alt="A picture of a letter"></a>
+            <div id="socials">
+                <a href="instagram.com">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="facebook.com">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </a>
             </div>
+            <a href="index.html"><img src="ohBearLogo.png" alt="The Oh Bear Cafe Logo"></a>
         </nav>
     </body>
 </html>
