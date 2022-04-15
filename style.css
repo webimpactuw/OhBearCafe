@@ -1,0 +1,22 @@
+#main-nav-bar {
+    display: flex;
+    flex-direction: row;
+    margin: 125px 20px 0px 100px;
+}
+
+#main-nav-bar div {
+    margin: 0px 15px 0px 15px;
+    font-size: 25px;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+#selected-nav-bar {
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background-color: #a89b70;
+    border-radius: 30px;
+}
