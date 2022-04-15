@@ -1,0 +1,40 @@
+html, body {
+    background-color: #F8F3EC;
+    height: fit-content;
+}
+
+#our-cafe {
+    background-image: url("img/index/background3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 900px;
+    padding-top: 100px;
+}
+
+#our-cafe h2 {
+ font-size: 64px;
+ margin-left: 40%;
+ padding: fit-content;
+ color: #928882;
+ background-color: transparent;
+ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#our-cafe p {
+    margin-left: 100px;
+}
+
+#our-cafe-img-cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+#our-cafe-img-cont div {
+    max-width: 10px;
+}
+
+#our-cafe-img-cont div img {
+    width: 10px;
+}
