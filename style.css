@@ -5,7 +5,7 @@
 }
 
 #main-nav-bar div {
-    margin: 0px 15px 0px 15px;
+    margin: 0px 4% 0px 4%;
     font-size: 25px;
 }
 
@@ -19,4 +19,8 @@ a, a:visited {
     color: white;
     background-color: #a89b70;
     border-radius: 30px;
+}
+
+#socials a {
+    margin: 0px 6px 0px 6px
 }
