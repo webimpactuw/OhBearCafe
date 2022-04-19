@@ -1,5 +1,6 @@
 html, body {
     margin: 0;
+    width: 100%;
 }
 
 #main-nav-bar {
@@ -8,7 +9,7 @@ html, body {
     padding: 7% 0px 0px 100px;
     align-items: center;
     background-color: #F8F3EC;
-
+    width: 100%;
     ;
 }
 
