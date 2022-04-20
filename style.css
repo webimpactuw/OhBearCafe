@@ -1,12 +1,38 @@
+html, body {
+    margin: 0;
+    width: 100%;
+}
+
 #main-nav-bar {
     display: flex;
     flex-direction: row;
-    margin: 125px 20px 0px 100px;
+    padding: 7% 0px 0px 100px;
+    align-items: center;
+    background-color: #F8F3EC;
+    width: 100%;
+    ;
 }
 
 #main-nav-bar div {
-    margin: 0px 4% 0px 4%;
+    margin: 0 1% 0px 3%;
     font-size: 25px;
+}
+
+.main-page-links {
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+}
+
+#main-nav-bar #oh-bear-logo {
+    padding: 0px 0px 0px 0px;
+    align-self: flex-start;
+    margin: 0px 0px 0px 15%;
+    max-width: 10%;
+}
+
+#oh-bear-logo img {
+    padding: 0;
+    max-width: 100%;
 }
 
 a, a:visited {
@@ -15,10 +41,8 @@ a, a:visited {
 }
 
 #selected-nav-bar {
-    padding: 10px 20px 10px 20px;
     color: white;
-    background-color: #a89b70;
-    border-radius: 30px;
+    background-color: #D0C1B6;
 }
 
 #socials a {

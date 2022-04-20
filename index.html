@@ -4,33 +4,55 @@
     <title>Home</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <body>
-        <nav id="main-nav-bar">
-            <div>
-                <a id="selected-nav-bar" href="menu.html">Menu</a>
+        <header>
+            <nav id="main-nav-bar">
+                <div>
+                    <a class="main-page-links" href="menu.html">Menu</a>
+                </div>
+                <div>
+                    <a class="main-page-links" href="about.html">About</a>
+                </div>
+                <div>
+                    <a class="main-page-links" href="contact.html">Contact Us</a>
+                </div>
+                <div>
+                    <a class="main-page-links" href="order.html">Order</a>
+                </div>
+                <div id="socials">
+                    <a href="instagram.com">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="facebook.com">
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div id="oh-bear-logo">
+                    <a href="index.html"><img src="img/ohBearLogo.png" alt="The Oh Bear Cafe Logo"></a>
+                </div>
+            </nav>
+        </header>
+        <section id="our-cafe">
+            <h2>Our cafe</h2>
+            <div id="our-cafe-img-container">
+                <div class="menu-items">
+                    <img src="img/index/drinks.png" alt="A row of Boba Tea drinks">
+                    <p>drinks</p>
+                </div>
+                <div class="menu-items">
+                    <img src="img/index/desserts.png" alt="Two takiyaki ready to be served">
+                    <p>desserts</p>
+                </div>
+                <div class="menu-items">
+                    <img src="img/index/sandwhiches.png" alt="Many sandwhiches together on a plate">
+                    <p>sandwhiches</p>
+                </div>
             </div>
-            <div>
-                <a href="about.html">About</a>
-            </div>
-            <div>
-                <a href="contact.html">Contact Us</a>
-            </div>
-            <div>
-                <a href="order.html">Order</a>
-            </div>
-            <div id="socials">
-                <a href="instagram.com">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-                <a href="facebook.com">
-                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                </a>
-                <a href="">
-                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                </a>
-            </div>
-            <a href="index.html"><img src="ohBearLogo.png" alt="The Oh Bear Cafe Logo"></a>
-        </nav>
+        </section>
     </body>
 </html>
