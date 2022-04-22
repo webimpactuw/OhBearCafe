@@ -2,9 +2,6 @@ html body {
   margin: 0px;
 }
 
-nav {
-}
-
 #upper-article {
   margin-left: 0px;
   margin-right: 0px;
@@ -23,6 +20,10 @@ nav {
 
 h1 {
   font-weight: 400;
-  font-size: 100px;
+  font-size: 70px;
   font-family: 'Josefin Slab', serif;
+}
+
+p {
+  font-family: 'Cutive Mono', monospace;
 }
