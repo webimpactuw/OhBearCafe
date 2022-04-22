@@ -1,0 +1,30 @@
+#background-picture {
+  background-image: url("img/menuBackground.png");
+  margin: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#main-nav-bar {
+  background-color: #2121216e;
+}
+
+.menu-pictures {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+
+page {
+  text-align: center;
+  border-left: 10%;
+  border-right: 10%;
+  font-size: xx-large;
+}
+
+hr {
+  width: 80%;
+}
+h1 {
+  text-align: center;
+}
