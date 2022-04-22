@@ -1,26 +1,51 @@
+html,
+body {
+  margin: 0;
+  width: 100%;
+}
+
 #main-nav-bar {
-    display: flex;
-    flex-direction: row;
-    margin: 125px 20px 0px 100px;
+  display: flex;
+  flex-direction: row;
+  padding: 7% 0px 0px 100px;
+  align-items: center;
+  background-color: #f8f3ec;
+  width: 100%;
 }
 
 #main-nav-bar div {
-    margin: 0px 4% 0px 4%;
-    font-size: 25px;
+  margin: 0 1% 0px 3%;
+  font-size: 25px;
 }
 
-a, a:visited {
-    text-decoration: none;
-    color: black;
+.main-page-links {
+  border-radius: 25px;
+  padding: 10px 20px 10px 20px;
+}
+
+#main-nav-bar #oh-bear-logo {
+  padding: 0px 0px 0px 0px;
+  align-self: flex-start;
+  margin: 0px 0px 0px 15%;
+  max-width: 10%;
+}
+
+#oh-bear-logo img {
+  padding: 0;
+  max-width: 100%;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: black;
 }
 
 #selected-nav-bar {
-    padding: 10px 20px 10px 20px;
-    color: white;
-    background-color: #a89b70;
-    border-radius: 30px;
+  color: white;
+  background-color: #d0c1b6;
 }
 
 #socials a {
-    margin: 0px 6px 0px 6px
+  margin: 0px 6px 0px 6px;
 }
