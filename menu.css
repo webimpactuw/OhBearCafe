@@ -1,4 +1,6 @@
 #background-picture {
+  display: flex;
+  flex-wrap: wrap;
   background-image: url("img/menuBackground.png");
   margin: 0px;
   background-size: cover;
@@ -6,25 +8,40 @@
 }
 #main-nav-bar {
   background-color: #2121216e;
+  width: 100%;
 }
 
+#menu-items {
+  background-color: rgba(255, 255, 255, 0.88);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  align-self: flex-end;
+}
 .menu-pictures {
   text-align: center;
+  width: 250px;
   padding-top: 50px;
   padding-bottom: 0px;
   margin-bottom: 10px;
 }
-
+p {
+  padding: 25px;
+}
 page {
   text-align: center;
-  border-left: 10%;
-  border-right: 10%;
-  font-size: xx-large;
+  background-color: #ffffff;
+  width: 650px;
+  padding: 100px;
+  font-size: 25px;
+  font-family: "Cutive Mono", monospace;
 }
 
 hr {
-  width: 80%;
+  width: 70%;
 }
 h1 {
   text-align: center;
+  margin: 0px;
+  font-weight: 400;
+  font-size: 90px;
+  font-family: "Josefin Slab", serif;
 }

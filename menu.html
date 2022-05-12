@@ -9,11 +9,23 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
   />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Ceviche+One&family=Josefin+Slab&family=Mochiy+Pop+One&family=Permanent+Marker&display=swap"
     rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ceviche+One&family=Cutive+Mono&family=Josefin+Slab&family=Mochiy+Pop+One&family=Permanent+Marker&display=swap"
+    rel="stylesheet"
+  />
+
   />
 
   <page>
@@ -46,20 +58,22 @@
           <a href="index.html"
             ><img src="img/ohBearLogo.png" alt="The Oh Bear Cafe Logo"
           /></a>
-          <div>
-            <a href="#drinks"> drinks</a>
-          </div>
-          <div>
-            <a href="#taiyaki"> taiyaki</a>
-          </div>
-          <div>
-            <a href="#cakes"> cakes</a>
-          </div>
-          <div>
-            <a href="#crepes"> crepes</a>
-          </div>
-          <div>
-            <a href="#sandwiches"> sandwiches</a>
+          <div id="menu-items">
+            <div>
+              <a href="#drinks"> drinks</a>
+            </div>
+            <div>
+              <a href="#taiyaki"> croissant taiyaki</a>
+            </div>
+            <div>
+              <a href="#cakes"> cakes & egg tarts</a>
+            </div>
+            <div>
+              <a href="#crepes"> crepes</a>
+            </div>
+            <div>
+              <a href="#sandwiches"> sandwiches</a>
+            </div>
           </div>
         </nav>
       </div>
@@ -73,9 +87,9 @@
           alt="Picture of a milk tea drink with boba"
         />
       </div>
-      <h1>drinks</h1>
+      <h1 id="drinks">drinks</h1>
       <hr />
-      <body>
+      <p>
         black milk tea<br />
         pearl boba milk black tea<br />
         oolong milk tea<br />
@@ -92,7 +106,7 @@
         <br />
         black tea w/ sea salt crema<br />
         green tea with sea salt crema<br />
-      </body>
+      </p>
       <hr />
       <div>
         <img
@@ -101,9 +115,9 @@
           alt="Picture of taiyaki"
         />
       </div>
-      <h1>taiyaki</h1>
+      <h1 id="taiyaki">croissant taiyaki</h1>
       <hr />
-      <body>
+      <p>
         custard<br />
         matcha custard<br />
         taro<br />
@@ -113,56 +127,64 @@
         ham & cheese<br />
         cheese<br />
         chicken & corn<br />
-      </body>
+      </p>
       <hr />
       <div>
         <img
           class="menu-pictures"
-          src="sourcetobe/ohBear.jpg"
+          src="img/index/cake.png"
           alt="Picture of cake"
         />
       </div>
-      <h1>cakes</h1>
+      <h1 id="cakes">cakes & egg tarts</h1>
       <hr />
-      <body>
-        custard<br />
-        matcha custard<br />
-        taro<br />
-        nutella<br />
-        red bean<br />
-        boba milk tea custard<br />
-        ham & cheese<br />
-        cheese<br />
-        chicken & corn<br />
-      </body>
+      <p>
+        japanese soy milk custard cake<br />
+        strawberry & cream cake box<br />
+        sea salt orea & almbond cream cake box<br />
+        blueberry cheese mouse<br />
+        taro & pork floos cake box<br />
+        german pudding tart<br />
+        chocolate egg tart<br />
+        strawberry mousse cup<br />
+        chocolate mousse cup<br />
+        tiramisu cup<br />
+        mango mousse cup<br />
+        basque burnt cheesecake<br />
+        milk pudding with red bean<br />
+      </p>
       <hr />
-      <div class="menu-pictures">
-        <img id="crepes" src="sourcetobe/ohBear.jpg" alt="Picture of crepes" />
-      </div>
-      <h1>crepes</h1>
-      <hr />
-      <body>
-        custard<br />
-        matcha custard<br />
-        taro<br />
-        nutella<br />
-        red bean<br />
-        boba milk tea custard<br />
-        ham & cheese<br />
-        cheese<br />
-        chicken & corn<br />
-      </body>
-      <hr />
-      <div class="menu-pictures">
+      <div>
         <img
-          id="sandwiches"
-          src="sourcetobe/ohBear.jpg"
+          class="menu-pictures"
+          src="img/index/crepes.png"
+          alt="Picture of cake"
+        />
+      </div>
+      <h1 id="crepes">crepes</h1>
+      <hr />
+      <p>
+        custard<br />
+        matcha custard<br />
+        taro<br />
+        nutella<br />
+        red bean<br />
+        boba milk tea custard<br />
+        ham & cheese<br />
+        cheese<br />
+        chicken & corn<br />
+      </p>
+      <hr />
+      <div>
+        <img
+          class="menu-pictures"
+          src="img/index/menuSandwich.png"
           alt="Picture of sandwiches"
         />
       </div>
-      <h1>sandwiches</h1>
+      <h1 id="sandwiches">sandwiches</h1>
       <hr />
-      <body>
+      <p>
         custard<br />
         matcha custard<br />
         taro<br />
@@ -172,7 +194,7 @@
         ham & cheese<br />
         cheese<br />
         chicken & corn<br />
-      </body>
+      </p>
       <hr />
     </main>
   </page>

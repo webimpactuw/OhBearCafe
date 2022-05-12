@@ -1,7 +1,7 @@
 #upper-article {
   margin-left: 0px;
   margin-right: 0px;
-  background-color: #D0C1B6;
+  background-color: #d0c1b6;
   display: flex;
   max-width: 100vw;
 }
@@ -20,7 +20,7 @@
 }
 
 #lower-article {
-  background-color: #F8F3EC;
+  background-color: #f8f3ec;
   padding: 100px 100px 100px 100px;
 }
 
@@ -50,13 +50,13 @@ h1 {
   margin: 0px;
   font-weight: 400;
   font-size: 90px;
-  font-family: 'Josefin Slab', serif;
+  font-family: "Josefin Slab", serif;
 }
 
 h2 {
   font-size: 40px;
   font-weight: 400;
-  font-family: 'Cutive Mono', monospace;
+  font-family: "Cutive Mono", monospace;
 }
 
 p {
@@ -64,5 +64,5 @@ p {
   margin: 0px;
   padding: 0px;
   font-size: 25px;
-  font-family: 'Cutive Mono', monospace;
+  font-family: "Cutive Mono", monospace;
 }
