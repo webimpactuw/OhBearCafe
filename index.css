@@ -1,6 +1,6 @@
 html,
 body {
-    background-color: #F4ede2;
+    background-color: #f5efe5;
     height: fit-content;
     font-family: Josefin Slab;
     size: 30px;
@@ -8,14 +8,16 @@ body {
 
 #top-section {
     background-image: url("img/index/indexWallpaper.png");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     padding-top: 75px;
-    padding-bottom: 100px;
-
+    /*
+    controls how big the background image for the top part of the page is
+    */
+    padding-bottom: 1700px;
 }
 
-#main-nav-bar {
+.main-nav-bar {
     background: transparent;
     padding-top: 0;
 }
@@ -31,6 +33,7 @@ body {
     height: 900px;
     padding-top: 100px;
     margin-left: 0;
+    margin-top: 0;
     color: #928882;
 }
 
@@ -46,8 +49,9 @@ body {
 #our-cafe-img-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin: 0 12%;
+    max-width: 100%;
     gap: 10%;
     justify-content: space-between;
 }

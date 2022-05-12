@@ -1,0 +1,20 @@
+html, body {
+  background-color: #f5efe5;
+  font-family: Josefin Slab;
+  height: 100%;
+}
+
+#contact-us {
+  padding-bottom: 50%;
+  margin-left: 10%;
+}
+
+#contact-us h2 {
+  font-size: 50px;
+}
+
+#contact-us input {
+  width: 30%;
+  height: 20%;
+  margin-bottom: 30px;
+}
