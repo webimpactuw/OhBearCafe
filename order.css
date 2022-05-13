@@ -4,6 +4,14 @@ a {
     font-family: "Cambria";
 }
 
+#main-nav-bar {
+    background-image: url("img/temporder.png");
+}
+
+.main-page-links{
+    color: white;
+}
+
 .nav-box div {
     white-space: nowrap;
     flex: auto;
@@ -33,6 +41,7 @@ h2 {
     width: 200px;
     margin-bottom: 5px;
     border: 1px solid black;
+    border-radius: 25px;
     display: flex;
     flex-flow: column nowrap;
     padding: 20px;
