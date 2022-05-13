@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html,
 body,
 header {
@@ -63,3 +64,57 @@ a:visited {
     display: flex;
     flex-direction: row;
 }
+=======
+html,
+body,
+header {
+  margin: 0;
+  width: 100%;
+}
+
+#main-nav-bar {
+  display: flex;
+  flex-direction: row;
+  padding: 7% 0 0 100px;
+  align-items: center;
+  background-color: #f8f3ec;
+}
+
+#main-nav-bar div {
+  margin: 0 1% 0 3%;
+  font-size: 25px;
+}
+
+.main-page-links {
+  border-radius: 25px;
+  padding: 10px 20px;
+}
+
+#main-nav-bar #oh-bear-logo {
+  padding: 0;
+  align-self: flex-start;
+  margin: 0 0 0 15%;
+  max-width: 10%;
+}
+
+#oh-bear-logo img {
+  padding: 0;
+  max-width: 100%;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+#selected-nav-bar {
+  color: white;
+  background-color: #d0c1b6;
+  border-radius: 10%;
+}
+
+#socials a {
+  margin: 0 6px;
+}
+>>>>>>> fa1aabbce584ef50eab6146891bfc120f9119b84
