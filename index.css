@@ -75,3 +75,49 @@ body {
     margin: 0;
     text-align: center;
 }
+
+#selected-menu-item {
+    display: flex;
+    flex-direction: row;
+    margin: 10% 0 0 20%;
+    margin-top: 100px;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+#selected-menu-item img {
+    background-image: url("img/index/image-back.png");
+    background-repeat: no-repeat;
+    padding: 25px 100px 100px 60px;
+    height: 20%;
+    background-size: 87%;
+}
+
+#selected-menu-item div {
+    margin-left: 7%;
+}
+
+
+#selected-menu-item p {
+    max-width: 50%;
+    font-size: 1.7em;
+}
+
+#selected-menu-item hr {
+    max-width: 40%;
+    margin-left: 0%;
+    size: 1px;
+    color: black;
+    border: 2px solid black;
+}
+
+#selected-menu-item h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 4em;
+    margin: 0;
+}
+
+#selected-menu-item .tab {
+    margin-left: 6%;
+}
+
