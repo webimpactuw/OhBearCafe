@@ -83,6 +83,7 @@ body {
     margin-top: 100px;
     max-width: 100%;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #selected-menu-item img {
@@ -91,6 +92,7 @@ body {
     padding: 25px 100px 100px 60px;
     height: 20%;
     background-size: 87%;
+    margin-right: 0;
 }
 
 #selected-menu-item div {
