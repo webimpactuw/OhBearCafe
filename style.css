@@ -5,15 +5,17 @@ header {
     width: 100%;
 }
 
-#main-nav-bar {
+.main-nav-bar {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     padding: 7% 0 0 100px;
     align-items: center;
-    background-color: #f8f3ec;
+    background-color: #f5efe5;;
+    max-width: 100%;
 }
 
-#main-nav-bar div {
+.main-nav-bar div {
     margin: 0 1% 0 3%;
     font-size: 25px;
 }
@@ -23,7 +25,7 @@ header {
     padding: 10px 20px;
 }
 
-#main-nav-bar #oh-bear-logo {
+.main-nav-bar #oh-bear-logo {
     padding: 0;
     align-self: flex-start;
     margin: 0 0 0 15%;
@@ -48,4 +50,16 @@ a:visited {
 
 #socials a {
     margin: 0 6px;
+}
+
+#bottom-nav-bar {
+    background-image: url("img/bottomNavBarBackground.png");
+    padding-top: 100px;
+    background-size: 2000px 100%;
+    background-repeat: no-repeat;
+}
+
+#oh-bear-logo-bottom {
+    display: flex;
+    flex-direction: row;
 }
