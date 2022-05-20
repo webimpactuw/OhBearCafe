@@ -1,22 +1,14 @@
 
-
 a {
-    font-family: "Cambria";
-}
-
-#main-nav-bar {
-    background-image: url("img/temporder.png");
-}
-
-.main-page-links{
-    color: white;
+  font-family: "Cambria";
 }
 
 .nav-box div {
-    white-space: nowrap;
-    flex: auto;
-    flex-direction: row;
+  white-space: nowrap;
+  flex: auto;
+  flex-direction: row;
 }
+
 
 
 #parent img {
