@@ -1,3 +1,8 @@
+html, body {
+  font-family: Josefin Slab;
+  size: 30px;
+}
+
 #upper-article {
   margin-left: 0px;
   margin-right: 0px;
@@ -20,7 +25,7 @@
 }
 
 #lower-article {
-  background-color: #f8f3ec;
+  background-color: white;
   padding: 100px 100px 100px 100px;
 }
 
@@ -59,7 +64,7 @@ h2 {
   font-family: "Cutive Mono", monospace;
 }
 
-p {
+#upper-article p, #lower-article p {
   width: 650px;
   margin: 0px;
   padding: 0px;
