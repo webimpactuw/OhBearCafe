@@ -1,3 +1,15 @@
+.main-nav-bar {
+  background: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: transparent;
+  align-self: center;
+  padding-top: 25px;
+  margin: 0px;
+  width: 100%;
+  font-size: 30px;
+  font-family: "Cutive Mono", monospace;
+}
 
 a {
   font-family: "Cambria";
@@ -9,37 +21,66 @@ a {
   flex-direction: row;
 }
 
+#page-name {
+  text-align: center;
+  font-family: "Chonburi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  color: white;
+}
+
+#page-header {
+  background-image: linear-gradient(to bottom, #2121216e, #2121216e),
+    url("img/menu/order-header.png");
+}
+
+#order {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.88);
+  align-self: flex-end;
+  font-family: "Cutive Mono", monospace;
+}
+
+#ordering {
+  padding: 20px;
+  font-size: 20px;
+}
 #parent img {
-    margin-left: 100px;
-    margin-top: 50px;
+  margin-left: 100px;
+  margin-top: 50px;
 }
 
 #child p {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 #child {
-    margin-top: 15%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
+  margin-top: 15%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
 }
 
 .boxes-1 {
-    display: flex;
-    justify-content: space-evenly;
-    width: 200px;
-    border: 1px solid;
-    border-radius: 25px;
-    padding: 20px;
-    color: white;
-    background-color: #d0c1b6;
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+  border: 1px solid;
+  border-radius: 25px;
+  padding: 20px;
+  color: white;
+  background-color: #d0c1b6;
 }
 
-.boxes-1 a, boxes-1 a:visited{
-    font-size: 30px;
-    color: white;
-    text-decoration: none;
-    padding: 10px 10px 10px 10px;
-    font-family: "Cutive Mono", monospace; 
+.boxes-1 a,
+boxes-1 a:visited {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+  font-family: "Cutive Mono", monospace;
 }
