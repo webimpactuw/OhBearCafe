@@ -14,7 +14,7 @@ body {
   /*
     controls how big the background image for the top part of the page is
     */
-  padding-bottom: 1700px;
+  padding-bottom: 400px;
 }
 
 .main-nav-bar {
@@ -41,7 +41,6 @@ body {
   font-size: 64px;
   margin-left: 42%;
   padding: fit-content;
-
   background-color: transparent;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -58,6 +57,20 @@ body {
 
 #our-cafe-img-cont div {
   max-width: 10px;
+}
+
+#our-cafe a h3 {
+  margin-left: 43%;
+  margin-top: 5%;
+  font-size: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: #FEEAA2;
+  width: fit-content;
+  border-radius: 25px;
+  color: #928882;
 }
 
 .menu-items {
@@ -79,33 +92,36 @@ body {
 #selected-menu-item {
   display: flex;
   flex-direction: row;
-  margin: 10% 0 0 20%;
-  margin-top: 100px;
+  margin: 10% 0 0 5%;
+  margin-top: 20px;
+  margin-bottom: 10%;
   max-width: 100%;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
 }
 
 #selected-menu-item img {
   background-image: url("img/index/image-back.png");
   background-repeat: no-repeat;
-  padding: 25px 100px 100px 60px;
+  padding: 25px 100px 100px 40px;
+  width: 45%;
   height: 20%;
   background-size: 87%;
+  margin: 0px;
   margin-right: 0;
 }
 
 #selected-menu-item div {
-  margin-left: 7%;
+  margin: 0px 0px 0px 0px;
 }
 
 #selected-menu-item p {
-  max-width: 50%;
+  width: 70%;
   font-size: 1.7em;
 }
 
 #selected-menu-item hr {
-    max-width: 40%;
+    max-width: 70%;
     margin-left: 0;
     size: 1px;
     color: black;
@@ -119,5 +135,71 @@ body {
 }
 
 #selected-menu-item .tab {
-  margin-left: 6%;
+  margin-left: 26%;
+}
+
+#accent {
+  margin-left: 0px;
+  font-family: 'Dawning of a New Day', cursive;
+  font-size: 50px;
+  margin: 0px;
+  margin-bottom: 5%;
+  transform: rotate(-25deg);
+  width: fit-content;
+}
+
+#selected-menu-item div h2, #selected-menu-item div hr, #selected-menu-item div p {
+  margin-left: 20%;
+}
+
+#about {
+  width: 70%;
+  margin-left: 10%;
+  margin-top: 20%;
+  display: flex;
+  flex-direction: row;
+}
+
+#about h2 {
+  font-size: 55px;
+}
+
+#about p {
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+#about a h3 {
+  font-size: 35px;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: #FEEAA2;
+}
+
+#about #about-text {
+  width: 70%;
+}
+
+#about #about-images {
+  position: relative;
+  margin-left: 10%;
+}
+
+#about #about-images #top-image {
+  background-image: url("img/index/about-drink-background.png");
+  background-repeat: no-repeat;
+  padding: 25px 100px 100px 0px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#about #about-images #bot-image {
+  background-image: url("img/index/about-sand-background.png");
+  background-repeat: no-repeat;
+  padding: 0px 70px 60px 0px;
+  position: absolute;
+  top: 150px;
+  left: 150px;
 }

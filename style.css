@@ -13,6 +13,7 @@ header {
   align-items: center;
   background-color: #f5efe5;
   max-width: 100%;
+  
 }
 
 .main-nav-bar div {
@@ -65,6 +66,8 @@ a:visited {
 }
 
 #oh-bear-logo-bottom p {
-  margin-top: 50px 0 0 5px;
+  margin: 50px 40px 0 20px;
 }
+
+
 
