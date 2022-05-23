@@ -39,8 +39,9 @@ body {
 
 #our-cafe h2 {
   font-size: 64px;
-  margin-left: 42%;
-  padding: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  width:fit-content;
   background-color: transparent;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -52,7 +53,7 @@ body {
   margin: 0 12%;
   max-width: 100%;
   gap: 10%;
-  justify-content: space-between;
+  justify-content:space-around;
 }
 
 #our-cafe-img-cont div {
@@ -60,7 +61,8 @@ body {
 }
 
 #our-cafe a h3 {
-  margin-left: 43%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 5%;
   font-size: 40px;
   padding-left: 25px;
