@@ -9,6 +9,10 @@
     font-family: "Cutive Mono", monospace;
 }
 
+html, body {
+    background-color: #f5efe5;
+}
+
 .main-nav-bar a {
     color: white;
 }
