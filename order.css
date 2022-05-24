@@ -1,19 +1,22 @@
 .main-nav-bar {
-  background: none;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: transparent;
-  align-self: center;
-  padding-top: 25px;
-  margin: 0px;
-  width: 100%;
-  font-size: 30px;
-  font-family: "Cutive Mono", monospace;
+    background: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-self: center;
+    padding-top: 25px;
+    margin: 0px;
+    font-size: 30px;
+    font-family: "Cutive Mono", monospace;
 }
 
-a {
-  font-family: "Cambria";
+.main-nav-bar a {
+    color: white;
 }
+
+#selected-nav-bar a {
+    color: white;
+    background-color: #d0c1b6;
+  }
 
 .nav-box div {
   white-space: nowrap;
@@ -28,13 +31,16 @@ a {
   font-weight: 400;
   font-size: 96px;
   padding-bottom: 100px;
-  padding-top: 50px;
+  padding-top: 25px;
   color: white;
 }
 
 #page-header {
   background-image: linear-gradient(to bottom, #2121216e, #2121216e),
-    url("img/menu/order-header.png");
+    url("img/order/order-header.png");
+  padding-top: 0px;
+  background-size: 100% ;
+  background-repeat: no-repeat;
 }
 
 #order {
@@ -42,6 +48,7 @@ a {
   justify-content: space-evenly;
   background-color: rgba(255, 255, 255, 0.88);
   align-self: flex-end;
+  margin-bottom: 50px;
   font-family: "Cutive Mono", monospace;
 }
 
@@ -59,18 +66,19 @@ a {
 }
 
 #child {
-  margin-top: 15%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
+  margin-top: 50px;
 }
 
 .boxes-1 {
   display: flex;
   justify-content: space-evenly;
-  width: 200px;
+  width: 300px;
   border: 1px solid;
   border-radius: 25px;
+  margin-top: 9%;
   padding: 20px;
   color: white;
   background-color: #d0c1b6;
