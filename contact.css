@@ -4,29 +4,36 @@ html, body {
   height: 100%;
 }
 
-#contact-us {
-  padding-bottom: 12.5%;
+#contact-form {
+  padding-bottom: 500px;
   padding-left: 10%;
   padding-top: 2%;
   width: auto;
 }
 
-#contact-us h2 {
+#contact-form h2 {
   font-size: 50px;
 }
 
-#contact-us label {
+#contact-form label {
   font-size: 30px;
 
 }
 
-#contact-us input {
+#contact-form input, #contact-form textarea {
   width: 30%;
   height: 20%;
   margin-bottom: 30px;
   border-radius: 20px;
   border-color: transparent;
   padding: 10px;
+  resize: vertical;
+}
+
+#send-form {
+  background-color: #d0c1b6;
+  font-family: Josefin Slab;
+  font-size: 40px;
 }
 
 .main-page-links, .main-page-links:visited, #socials a, #socials a:visited {
