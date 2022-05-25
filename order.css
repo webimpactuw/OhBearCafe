@@ -42,9 +42,12 @@ html, body {
 #page-header {
   background-image: linear-gradient(to bottom, #2121216e, #2121216e),
     url("img/order/order-header.png");
-  padding-top: 0px;
-  background-size: 100% ;
+  padding-bottom: 0px;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  overflow: hidden;
 }
 
 #order {
@@ -52,7 +55,6 @@ html, body {
   justify-content: space-evenly;
   background-color: rgba(255, 255, 255, 0.88);
   align-self: flex-end;
-  margin-bottom: 50px;
   font-family: "Cutive Mono", monospace;
 }
 

@@ -1,88 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset="UTF-8">
-    <title>Contact</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet"/>
-    <body>
-        <nav class="main-nav-bar">
-            <div>
-                <a class="main-page-links" href="menu.html">menu</a>
-            </div>
-            <div>
-                <a class="main-page-links" href="about.html">about</a>
-            </div>
-            <div>
-                <a class="main-page-links" id="selected-nav-bar" href="contact.html">contact us</a>
-            </div>
-            <div>
-                <a class="main-page-links" href="order.html">order</a>
-            </div>
-            <div id="socials">
-                <a href="instagram.com">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-                <a href="facebook.com">
-                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                </a>
-                <a href="">
-                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                </a>
-            </div>
-            <div id="oh-bear-logo">
-                <a href="index.html"><img src="img/ohBearLogo.png" alt="The Oh Bear Cafe Logo"></a>
-            </div>
-        </nav>
-        <section id="contact-us">
-            <h2>Contact Us!</h2>
-            <label for="name">Full Name
-                <br></label>
-            <input type="text" name="name">
-            <br>
-            <label for="email">Email
-                <br></label>
-            <input type="text" name="email">
-            <br>
-            <label for="name">Full Name
-                <br></label>
-            <input type="text" name="name">
-            <br>
-        </section>
-        <nav class="main-nav-bar" id="bottom-nav-bar">
-            <div id="oh-bear-logo-bottom">
-                <a href="index.html"><img src="img/ohBearLogo.png" alt="The Oh Bear Cafe Logo"></a>
-                <p>cafe
-                    <br>
-                    & teahouse</p>
-            </div>
-            <div>
-                <a class="main-page-links" href="menu.html">menu</a>
-            </div>
-            <div>
-                <a class="main-page-links" href="about.html">about</a>
-            </div>
-            <div>
-                <a class="main-page-links" id="selected-nav-bar" href="contact.html">contact us</a>
-            </div>
-            <div>
-                <a class="main-page-links" href="order.html">order</a>
-            </div>
-            <div id="socials">
-                <a href="instagram.com">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-                <a href="facebook.com">
-                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                </a>
-                <a href="">
-                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                </a>
-            </div>
-        </nav>
-    </body>
+  <head>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init("t4-f_BUwzCvI8Ec1b");
+      })();
+    </script>
+    <script type="text/javascript">
+      window.onload = function () {
+        document
+          .getElementById("contact-form")
+          .addEventListener("submit", function (event) {
+            event.preventDefault();
+            // generate a five digit number for the contact_number variable
+            this.contact_number.value = (Math.random() * 100000) | 0;
+            inputs = document.querySelectorAll("#contact-form #text-input")
+            for (let i = 0; i < inputs.length; i++) {
+                inputs[i].value = ""
+                console.log(inputs[i].value)
+            }
+            // these IDs from the previous steps
+            emailjs.sendForm("service_3ng6uyb", "template_p1aj9go", this).then(
+              function () {
+                console.log("SUCCESS!");
+              },
+              function (error) {
+                console.log("FAILED...", error);
+              }
+            );
+          });
+      };
+    </script>
+  </head>
+  <meta charset="UTF-8" />
+  <title>Contact</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="contact.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap"
+    rel="stylesheet"
+  />
+  <body>
+    <nav class="main-nav-bar">
+      <div>
+        <a class="main-page-links" href="menu.html">menu</a>
+      </div>
+      <div>
+        <a class="main-page-links" href="about.html">about</a>
+      </div>
+      <div>
+        <a class="main-page-links" id="selected-nav-bar" href="contact.html"
+          >contact us</a
+        >
+      </div>
+      <div>
+        <a class="main-page-links" href="order.html">order</a>
+      </div>
+      <div id="socials">
+        <a href="instagram.com">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="facebook.com">
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div id="oh-bear-logo">
+        <a href="index.html"
+          ><img src="img/ohBearLogo.png" alt="The Oh Bear Cafe Logo"
+        /></a>
+      </div>
+    </nav>
+    <form id="contact-form">
+      <h2>Contact Us!</h2>
+      <input type="hidden" name="contact_number">
+      <label for="name">Full Name <br /></label>
+      <input type="text" name="user_name" id="text-input"/>
+      <br />
+      <label for="email">Email <br /></label>
+      <input type="text" name="user_email" id="text-input"/>
+      <br />
+      <label for="name">Message <br /></label>
+      <textarea name="message"
+       id="text-input"></textarea>
+      <br />
+      <input type="submit" value="Send" id="send-form">
+      <br />
+        </form>
+    <nav class="main-nav-bar" id="bottom-nav-bar">
+      <div id="oh-bear-logo-bottom">
+        <a href="index.html"
+          ><img src="img/ohBearLogo.png" alt="The Oh Bear Cafe Logo"
+        /></a>
+        <p>
+          cafe
+          <br />
+          & teahouse
+        </p>
+      </div>
+      <div>
+        <a class="main-page-links" href="menu.html">menu</a>
+      </div>
+      <div>
+        <a class="main-page-links" href="about.html">about</a>
+      </div>
+      <div>
+        <a class="main-page-links" id="selected-nav-bar" href="contact.html"
+          >contact us</a
+        >
+      </div>
+      <div>
+        <a class="main-page-links" href="order.html">order</a>
+      </div>
+      <div id="socials">
+        <a
+          href="https://www.instagram.com/uw_ohbearcafe/?hl=en"
+          target="_blank"
+        >
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.facebook.com/ohbearcafe/" target="_blank">
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </a>
+        <a href="" target="_blank">
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </a>
+      </div>
+    </nav>
+  </body>
 </html>
