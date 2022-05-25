@@ -22,6 +22,14 @@
   color: black;
 }
 
+.main-nav-bar #selected-nav-bar {
+  color: black;
+}
+
+#bottom-nav-bar #selected-nav-bar {
+  color: white;
+}
+
 #bottom-nav-bar {
   background-size: cover;
 }
