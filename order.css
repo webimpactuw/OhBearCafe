@@ -98,3 +98,26 @@ boxes-1 a:visited {
   padding: 10px 10px 10px 10px;
   font-family: "Cutive Mono", monospace;
 }
+
+#bottom-nav-bar .main-page-links, #bottom-nav-bar .main-page-links:visited,
+#bottom-nav-bar #socials a, #bottom-nav-bar #socials a:visited {
+  color: black;
+}
+
+.main-nav-bar #selected-nav-bar {
+  color: black;
+}
+
+#bottom-nav-bar #selected-nav-bar {
+  color: white;
+}
+
+#bottom-nav-bar {
+  margin-top: 10%;
+  width: auto;
+}
+
+#bottom-nav-bar img {
+  margin: 0;
+}
+
