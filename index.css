@@ -22,6 +22,10 @@ body {
   padding-top: 0;
 }
 
+.main-page-links, #socials a {
+  color: black;
+}
+
 #food-item {
   display: flex;
 }

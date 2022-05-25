@@ -5,9 +5,25 @@
   align-self: center;
   padding-top: 25px;
   margin: 0px;
-  width: 100%;
   font-size: 30px;
   font-family: "Cutive Mono", monospace;
+}
+
+.main-page-links, .main-page-links:visited, #socials a, #socials a:visited {
+    color: white;
+}
+
+.menuPick a {
+  color: black;
+}
+
+#bottom-nav-bar .main-page-links, #bottom-nav-bar .main-page-links:visited,
+#bottom-nav-bar #socials a, #bottom-nav-bar #socials a:visited {
+  color: black;
+}
+
+#bottom-nav-bar {
+  background-size: cover;
 }
 
 #page-name {
@@ -24,6 +40,12 @@
 #page-header {
   background-image: linear-gradient(to bottom, #2121216e, #2121216e),
     url("img/menu/menuBackground.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  overflow: hidden;
 }
 
 #menu-items {

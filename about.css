@@ -19,6 +19,10 @@ html, body {
   height: 420px;
 }
 
+a, a:visited {
+  color: black;
+}
+
 #upper-article div {
   padding: 0px;
   margin: 130px 300px 60px 50px;

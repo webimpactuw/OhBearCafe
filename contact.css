@@ -5,16 +5,30 @@ html, body {
 }
 
 #contact-us {
-  padding-bottom: 50%;
-  margin-left: 10%;
+  padding-bottom: 12.5%;
+  padding-left: 10%;
+  padding-top: 2%;
+  width: auto;
 }
 
 #contact-us h2 {
   font-size: 50px;
 }
 
+#contact-us label {
+  font-size: 30px;
+
+}
+
 #contact-us input {
   width: 30%;
   height: 20%;
   margin-bottom: 30px;
+  border-radius: 20px;
+  border-color: transparent;
+  padding: 10px;
+}
+
+.main-page-links, .main-page-links:visited, #socials a, #socials a:visited {
+    color: black;
 }
