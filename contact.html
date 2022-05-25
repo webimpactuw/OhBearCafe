@@ -17,12 +17,15 @@
           .getElementById("contact-form")
           .addEventListener("submit", function (event) {
             event.preventDefault();
+            if (!validateMyForm()) {
+              return;
+            }
+            console.log("work")
             // generate a five digit number for the contact_number variable
             this.contact_number.value = (Math.random() * 100000) | 0;
             inputs = document.querySelectorAll("#contact-form #text-input")
             for (let i = 0; i < inputs.length; i++) {
                 inputs[i].value = ""
-                console.log(inputs[i].value)
             }
             // these IDs from the previous steps
             emailjs.sendForm("service_3ng6uyb", "template_p1aj9go", this).then(
@@ -35,6 +38,16 @@
             );
           });
       };
+
+      function validateMyForm() {
+          inputs = document.querySelectorAll("#contact-form #text-input")
+            for (let i = 0; i < inputs.length; i++) {
+                if (inputs[i].value === "") {
+                    return false
+                }
+            }
+            return true;
+      }
     </script>
   </head>
   <meta charset="UTF-8" />
@@ -98,7 +111,7 @@
       <textarea name="message"
        id="text-input"></textarea>
       <br />
-      <input type="submit" value="Send" id="send-form">
+      <input type="submit" value="Send" id="send-form" >
       <br />
         </form>
     <nav class="main-nav-bar" id="bottom-nav-bar">
