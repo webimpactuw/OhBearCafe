@@ -3,10 +3,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   align-self: center;
-  padding-top: 25px;
   margin: 0px;
   font-size: 30px;
-  font-family: "Cutive Mono", monospace;
+  font-family: Josefin Slab;
 }
 
 .main-page-links, .main-page-links:visited, #socials a, #socials a:visited {
