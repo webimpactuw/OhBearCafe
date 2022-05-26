@@ -16,7 +16,7 @@ html, body {
 #top-section {
   background-image: url("img/about/background-1.png");
   background-size: cover;
-  padding-bottom: 400px;
+  padding-bottom: 30%;
 }
 
 #our-story {
@@ -41,11 +41,12 @@ html, body {
 #our-story p {
   font-family: "Cutive Mono";
   font-size: 24px;
+  width: 40%;
 }
 
 #find-us {
   padding-left: 10%;
-  padding-bottom: 500px;
+  padding-bottom: 40%;
   padding-top: 10%;
   background-image: url("img/about/background-2.png");
   background-size: cover;
