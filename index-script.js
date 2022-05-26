@@ -4,7 +4,7 @@
 
     const imageDescript = ["Croissant Taiyaki", "White Rabbit Cake", "White Rabbit Milk Tea"]
     const numShowcase = 3
-    const imgDelay = 3 * 1000;
+    const imgDelay = 8 * 1000;
     let currTimeout;
 
     window.addEventListener("load", init);
