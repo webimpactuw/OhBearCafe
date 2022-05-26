@@ -103,7 +103,7 @@ body {
   margin-bottom: 10%;
   max-width: 100%;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #selected-menu-item img {
@@ -118,20 +118,7 @@ body {
 }
 
 #selected-menu-item div {
-  margin: 0px 0px 0px 0px;
-}
-
-#selected-menu-item p {
-  width: 70%;
-  font-size: 1.7em;
-}
-
-#selected-menu-item hr {
-    max-width: 70%;
-    margin-left: 0;
-    size: 1px;
-    color: black;
-    border: 2px solid black;
+  margin: 7% 15% 0px 0px;
 }
 
 #selected-menu-item h2 {
@@ -140,22 +127,17 @@ body {
   margin: 0;
 }
 
-#selected-menu-item .tab {
-  margin-left: 26%;
-}
-
 #accent {
   margin-left: 0px;
   font-family: 'Dawning of a New Day', cursive;
   font-size: 50px;
   margin: 0px;
   margin-bottom: 5%;
-  transform: rotate(-25deg);
   width: fit-content;
 }
 
-#selected-menu-item div h2, #selected-menu-item div hr, #selected-menu-item div p {
-  margin-left: 20%;
+#selected-menu-item div h2, #selected-menu-item div p, #selected-menu-item div h3 {
+  margin: 0;
 }
 
 #about {
@@ -175,12 +157,13 @@ body {
   line-height: 1.5;
 }
 
-#about a h3 {
+#about a h3, #about a h3:visited {
   font-size: 35px;
   width: fit-content;
   padding: 20px;
   border-radius: 25px;
   background-color: #FEEAA2;
+  color: #705F54;
 }
 
 #about #about-text {
