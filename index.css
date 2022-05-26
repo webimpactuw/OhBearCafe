@@ -106,19 +106,19 @@ body {
   justify-content: space-around;
 }
 
-#selected-menu-item img {
+#showcased {
   background-image: url("img/index/image-back.png");
   background-repeat: no-repeat;
   padding: 25px 100px 100px 40px;
   width: 45%;
   height: 20%;
   background-size: 87%;
-  margin: 0px;
-  margin-right: 0;
+  margin: 0;
 }
 
 #selected-menu-item div {
   margin: 7% 15% 0px 0px;
+  width: 30vw;
 }
 
 #selected-menu-item h2 {
@@ -221,4 +221,16 @@ body {
 
 #location-hours div h3 {
   font-size: 40px;
+}
+
+#selected-selector {
+  margin-left: 200%;
+}
+
+#selected-selector img {
+  background: none;
+  width: fit-content;
+  height: fit-content;
+  padding: 0;
+  margin: 0 1% 0 1%;
 }
