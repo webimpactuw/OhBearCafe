@@ -2,7 +2,7 @@
 
 (function () {
 
-    const imageDescript = ["Croissant Taiyaki", "White Rabbit Cafe", "White Rabbit Milk Tea"]
+    const imageDescript = ["Croissant Taiyaki", "White Rabbit Cake", "White Rabbit Milk Tea"]
     const numShowcase = 3
     const imgDelay = 8 * 1000
 
