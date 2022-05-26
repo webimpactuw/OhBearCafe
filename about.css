@@ -50,18 +50,29 @@ html, body {
   padding-top: 10%;
   background-image: url("img/about/background-2.png");
   background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 #find-us div {
+  margin-top: 10%;
   width: 50%;
+}
+
+#find-us h2 {
+ font-size: 60px;
+}
+
+
+#find-us p {
+  font-size: 40px;
 }
 
 #find-us img {
   margin-right: 10%;
-  margin-top: 5%;
+  margin-top: 25%;
   width: fit-content;
   height: fit-content;
 }
