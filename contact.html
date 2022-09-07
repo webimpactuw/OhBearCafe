@@ -20,12 +20,11 @@
             if (!validateMyForm()) {
               return;
             }
-            console.log("work")
             // generate a five digit number for the contact_number variable
             this.contact_number.value = (Math.random() * 100000) | 0;
-            inputs = document.querySelectorAll("#contact-form #text-input")
+            inputs = document.querySelectorAll("#contact-form #text-input");
             for (let i = 0; i < inputs.length; i++) {
-                inputs[i].value = ""
+              inputs[i].value = "";
             }
             // these IDs from the previous steps
             emailjs.sendForm("service_3ng6uyb", "template_p1aj9go", this).then(
@@ -40,13 +39,13 @@
       };
 
       function validateMyForm() {
-          inputs = document.querySelectorAll("#contact-form #text-input")
-            for (let i = 0; i < inputs.length; i++) {
-                if (inputs[i].value === "") {
-                    return false
-                }
-            }
-            return true;
+        inputs = document.querySelectorAll("#contact-form #text-input");
+        for (let i = 0; i < inputs.length; i++) {
+          if (inputs[i].value === "") {
+            return false;
+          }
+        }
+        return true;
       }
     </script>
   </head>
@@ -82,14 +81,16 @@
         <a class="main-page-links" href="order.html">order</a>
       </div>
       <div id="socials">
-        <a href="https://www.instagram.com/uw_ohbearcafe/?hl=en"
-        target="_blank">
+        <a
+          href="https://www.instagram.com/uw_ohbearcafe/?hl=en"
+          target="_blank"
+        >
           <i class="fa fa-instagram" aria-hidden="true"></i>
         </a>
         <a href="https://www.facebook.com/ohbearcafe/" target="_blank">
           <i class="fa fa-facebook-square" aria-hidden="true"></i>
         </a>
-        <a href="contact.html">
+        <a href="mailto:LNHCAFE88@gmail.com">
           <i class="fa fa-envelope-o" aria-hidden="true"></i>
         </a>
       </div>
@@ -101,20 +102,19 @@
     </nav>
     <form id="contact-form">
       <h2>Contact Us!</h2>
-      <input type="hidden" name="contact_number">
+      <input type="hidden" name="contact_number" />
       <label for="name">Full Name <br /></label>
-      <input type="text" name="user_name" id="text-input"/>
+      <input type="text" name="user_name" id="text-input" />
       <br />
       <label for="email">Email <br /></label>
-      <input type="text" name="user_email" id="text-input"/>
+      <input type="text" name="user_email" id="text-input" />
       <br />
       <label for="name">Message <br /></label>
-      <textarea name="message"
-       id="text-input"></textarea>
+      <textarea name="message" id="text-input"></textarea>
       <br />
-      <input type="submit" value="Send" id="send-form" >
+      <input type="submit" value="Send" id="send-form" />
       <br />
-        </form>
+    </form>
     <nav class="main-nav-bar" id="bottom-nav-bar">
       <div id="oh-bear-logo-bottom">
         <a href="index.html"
@@ -141,8 +141,10 @@
         <a class="main-page-links" href="order.html">order</a>
       </div>
       <div id="socials">
-        <a href="https://www.instagram.com/uw_ohbearcafe/?hl=en"
-          target="_blank">
+        <a
+          href="https://www.instagram.com/uw_ohbearcafe/?hl=en"
+          target="_blank"
+        >
           <i class="fa fa-instagram" aria-hidden="true"></i>
         </a>
         <a href="https://www.facebook.com/ohbearcafe/" target="_blank">
